@@ -94,9 +94,10 @@ function checkEligibility(age, isEmployed) {
         console.log("Customer is conditionally eligible");
 
     }
-    else if (age <= 18)
-    console.log("Customer is not eligible");
-5
+    else 
+    {console.log("Customer is not eligible");}
+    
+
 }
 
 checkEligibility(age, isEmployed);
