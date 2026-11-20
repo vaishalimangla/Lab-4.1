@@ -1,17 +1,18 @@
 
 // //Function to prompt first and last name and return lastname,firstname with first letter capital
 
+const prompt = require('prompt-sync')();
 
 let fName = prompt("Enter the first name: ");
 //making sure user entered the first name
 while (fName === null || fName.trim() === "") {
-    fName = prompt("Invalid name input:");
+    fName = prompt("Invalid first name input:");
 }
 
 let lName = prompt("Enter the last name: ");
 //making sure user entered the last name
 while (lName === null || lName.trim() === "") {2
-    lName = prompt("Invalid name input:");
+    lName = prompt("Invalid last name input:");
 }
 
 
